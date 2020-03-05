@@ -4,28 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>카카오</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet"> -->
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+        /* font-family: 'Roboto', sans-serif; 영문적용글꼴*/
+        /* font-family: 'Noto Sans KR', sans-serif;  한글적용글꼴*/
+        *{margin:0;border:none;padding:0;}
+        ul,ol,li{list-style:none;}
+        a{color:#333;text-decoration:none;}
+
+        header{border-bottom:1px solid #ccc;}
+        header>div.row{width:1200px;margin:0 auto;overflow:hidden;}
+        header>div.row>div{float:left;width:300px;}
+        header>div.row>div.main_logo{}
+        header>div.row>div.main_nav{width:600px;}
+        header>div.row>div.main_nav>ul{}
+        header>div.row>div.main_nav>ul>li{display:inline-block;margin:0 10px;}
+        header>div.row>div.main_nav>ul>li>a{}
+        header>div.row>div.lang{float:right;}
+        header>div.row>div.lang>ul{text-align:right;}
+        header>div.row>div.lang>ul>li{display:inline-block;}
+        section{height:500px;border-bottom:1px solid #ccc;}
+        footer{height:60px;}
+
+    </style>
 </head>
 <body>
     <div class="wrap">
         <header>
-            <div class="main_logo">
-                <h1><a href="#">kakao</a></h1>
-            </div>
-            <div class="main_nav">
-                <ul>
-                    <li><a href="#">카카오</a></li>
-                    <li><a href="#">투자정보</a></li>
-                    <li><a href="#">서비스</a></li>
-                    <li><a href="#">소셜임팩트</a></li>
-                    <li><a href="#">고객지원</a></li>
-                    <li><a href="#">인재영입<span></span></a></li>
-                </ul>
-            </div>
-            <div class="lang">
-                <ul>
-                    <li><a href="#">Kor</a></li>
-                    <li><a href="#">Eng</a></li>
-                </ul>
+            <div class="row">
+                <div class="main_logo">
+                    <h1><a href="#">kakao</a></h1>
+                </div>
+                <div class="main_nav">
+                    <ul>
+                        <li><a href="#">카카오</a></li>
+                        <li><a href="#">투자정보</a></li>
+                        <li><a href="#">서비스</a></li>
+                        <li><a href="#">소셜임팩트</a></li>
+                        <li><a href="#">고객지원</a></li>
+                        <li><a href="#">인재영입<span></span></a></li>
+                    </ul>
+                </div>
+                <div class="lang">
+                    <ul>
+                        <li><a href="#">Kor</a></li>
+                        <li><a href="#">Eng</a></li>
+                    </ul>
+                </div>
             </div>
         </header>
         <section>
